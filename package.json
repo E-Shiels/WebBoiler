@@ -1,0 +1,32 @@
+{
+  "name": "webboiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/E-Shiels/WebBoiler.git"
+  },
+  "author": "",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/E-Shiels/WebBoiler/issues"
+  },
+  "homepage": "https://github.com/E-Shiels/WebBoiler#readme",
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-plugin-shopify": "^35.1.0"
+  },
+    "eslintConfig": {
+      "extends": "plugin:shopify/esnext",
+      "env": {
+        "browser": true
+      }
+    },
+    "scripts": {
+      "lint": "eslint . --max-warnings 0"
+    }
+}
